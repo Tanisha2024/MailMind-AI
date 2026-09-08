@@ -1,0 +1,41 @@
+import os
+from dotenv import load_dotenv
+from groq import Groq
+
+load_dotenv()
+
+api_key = os.getenv("GROQ_API_KEY")
+
+if not api_key:
+    raise ValueError("GROQ_API_KEY not found in .env file")
+
+client = Groq(api_key=api_key)
+
+
+def analyze_email(email_text):
+    response = client.chat.completions.create(
+        model="openai/gpt-oss-120b",
+        messages=[
+            {
+                "role": "system",
+                "content": """
+You are MailMind AI, an intelligent email assistant.
+
+Analyze the user's email and provide:
+1. A short summary
+2. The email category
+3. The priority
+4. Important action items
+5. A suggested reply
+
+Keep the response clear and practical.
+"""
+            },
+            {
+                "role": "user",
+                "content": email_text
+            }
+        ]
+    )
+
+    return response.choices[0].message.content

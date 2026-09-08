@@ -1,0 +1,40 @@
+[
+    {
+        "id": 1,
+        "category": "Internship Policy",
+        "email": "Subject: Internship Policy and Guidelines\n\nHi Tanisha,\n\nPlease find the internship policy and guidelines for the upcoming program.\n\nThere is no immediate action required. Please keep this email for future reference, as you may need to review these guidelines during the internship.\n\nRegards,\nHR Team",
+        "saved_at": "2026-09-07T18:17:29.488179"
+    },
+    {
+        "id": 2,
+        "category": "Interview Invitation",
+        "priority": "High",
+        "summary": "TechNova Solutions has shortlisted you for the AI Engineer Intern role and scheduled a technical interview on Thursday, September 10 at 3:00\u202fPM via Google Meet.",
+        "email": "Dear Tanisha,\n\nThank you for applying for the AI Engineer Intern position at TechNova Solutions.\n\nWe are pleased to inform you that you have been shortlisted for the next round of the selection process. Your technical interview is scheduled for **Thursday, September 10 at 3:00 PM** and will be conducted online via Google Meet.\n\nThe interview will focus on Python, machine learning fundamentals, LLMs, and your previous projects.\n\nPlease confirm your availability by replying to this email. If you are unable to attend at the scheduled time, let us know and we can discuss an alternative slot.\n\nBest regards,\nPriya Sharma\nTalent Acquisition Team\nTechNova Solutions\n",
+        "saved_at": "2026-09-07T19:22:10.412740"
+    },
+    {
+        "id": 3,
+        "category": "Job Application \u2013 Rejection",
+        "priority": "Low",
+        "summary": "The recruitment team informs Tanisha that her application for the Data Science Intern position was not successful and encourages her to apply for future opportunities.",
+        "email": "Dear Tanisha,\n\nThank you for your interest in the Data Science Intern position at DataSphere Technologies.\n\nAfter carefully reviewing your application, we regret to inform you that we have decided to move forward with other candidates whose experience more closely matches our current requirements.\n\nWe appreciate the time you invested in the application process and encourage you to apply for future opportunities with us.\n\nWe wish you the very best in your career.\n\nRegards,\nRecruitment Team\nDataSphere Technologies\n",
+        "saved_at": "2026-09-07T19:24:15.291242"
+    },
+    {
+        "id": 4,
+        "category": "Job Rejection",
+        "priority": "",
+        "summary": "",
+        "email": "Dear Tanisha,\n\nThank you for your interest in the Data Science Intern position at DataSphere Technologies.\n\nAfter carefully reviewing your application, we regret to inform you that we have decided to move forward with other candidates whose experience more closely matches our current requirements.\n\nWe appreciate the time you invested in the application process and encourage you to apply for future opportunities with us.\n\nWe wish you the very best in your career.\n\nRegards,\nRecruitment Team\nDataSphere Technologies",
+        "saved_at": "2026-09-07T19:24:18.699246"
+    },
+    {
+        "id": 5,
+        "category": "Scheduling",
+        "priority": "High",
+        "summary": "HR manager Rahul Mehta informs Tanisha that her AI Engineer Intern interview scheduled for Wednesday at 11:00\u202fAM must be rescheduled due to a conflict and asks if Friday at 2:30\u202fPM works.",
+        "email": "Hi Tanisha,\n\nI wanted to let you know that your AI Engineer Intern interview scheduled for Wednesday at 11:00 AM needs to be rescheduled due to an unexpected scheduling conflict.\n\nCould you please confirm whether you are available on Friday at 2:30 PM instead?\n\nSorry for the inconvenience, and thank you for your flexibility.\n\nBest,\nRahul Mehta\nHR Manager\n",
+        "saved_at": "2026-09-07T19:25:31.500781"
+    }
+]
